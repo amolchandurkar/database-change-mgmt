@@ -1,8 +1,0 @@
-databaseChangeLog:
-  - changeSet:
-      id: 3
-      author: demo
-      changes:
-        - dropColumn:
-            columnName: address
-            tableName: person
