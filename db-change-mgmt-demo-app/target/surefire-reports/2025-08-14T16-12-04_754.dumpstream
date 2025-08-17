@@ -1,0 +1,5 @@
+# Created at 2025-08-14T16:12:05.054
+Boot Manifest-JAR contains absolute paths in classpath 'D:\amol\code\database-change-mgmt\db-change-mgmt-demo-app\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

@@ -1,4 +1,30 @@
-# Database Change Management 
+# db-change-mgmt-demo-app
+
+This is a Maven-based Spring Boot project using Java 21 and the latest Spring Boot release. It demonstrates database change management using Liquibase.
+
+## Features
+
+- Spring Boot 3.3.0
+- Java 21
+- Liquibase for database migrations
+- H2 in-memory database
+- JPA entity and repository
+- REST API for Person entity
+
+## How to Run
+
+1. Build the project:
+   ```shell
+   mvn clean install
+   ```
+2. Run the application:
+   ```shell
+   mvn spring-boot:run
+   ```
+3. Access the API:
+   - List persons: `GET /api/persons`
+   - Add person: `POST /api/persons`
+## Database Change Management 
 Database changes happens along with the application code development and it is important part of 
 product/project lifecycle. We can either write custom scripts to carry out database changes during
 the lifecycle of the product or use ready-made library to do this activity. We can use liquibase or 
